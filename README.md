@@ -22,11 +22,9 @@ git clone https://github.com/theRizwan/ReactTest.git
 
 ## Usage
 
-- yarn start
-- yarn storybook
+- npm start or yarn start
 - yarn lint
 - yarn test
-- yarn template ComponentName
 
 ## Documentation
 
