@@ -1,0 +1,267 @@
+.flexStartStartRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .flexEndStartRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  
+  .flexEndCenterRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .inheritMinHeight {
+    min-height: inherit;
+  }
+  
+  .flexStartCenterRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .flexCenterCenterRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flexCenterStartRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .flexCenterRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexCenterCol {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .flexEndRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .flexStartSpaceBetweenRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flexSpaceBetween {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flexSpaceAround {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .flexColumnSpaceBetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .flexColumnSpaceBetweenEnd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .flexColumnSpaceBetweenCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flexColumnSpaceBetweenStart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .flexStartCenterColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .flexStartStartColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .flexStartEndColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  
+  .flexColumn {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flexColumnCenterCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flexRow {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .fillTheGap {
+    flex: auto;
+    min-width: 0;
+  }
+  
+  .flexRowAlignCenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .flexColumnAlignCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .flexColumnAlignStart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .alignSelfStart {
+    align-self: flex-start;
+  }
+  
+  .takeTheRest {
+    flex-grow: 1;
+    height: 100%;
+  }
+  
+  .flexWrap {
+    flex-wrap: wrap;
+  }
+  
+  .noWrap {
+    flex-wrap: nowrap;
+  }
+  
+  .flex-1 {
+    flex: 1;
+  }
+  
+  .flexFullWidth {
+    display: flex;
+    width: 100%;
+  }
+  
+  .fullWidth {
+    width: 100%;
+  }
+
+  .fullHeight {
+    height: 100%;
+  }
+
+  /* Batch Mode Label */
+  .f12, .MuiAutocomplete-popper li,.batchlabel .MuiFormControlLabel-label{
+    font-size: 12px !important;
+  }
+  #searchTextField {
+    font-size: 12px !important;
+  }
+
+  .pagination button {
+    font-size: 12px !important;
+  }
+
+  #demo-simple-select {
+    font-size: 12px !important;
+  }
+  #demo-simple-select li {
+    font-size: 12px !important;
+  }
+
+  .autocomplete input {
+    font-size: 12px !important;
+  }
+
+  .textfield input {
+    font-size: 12px !important;
+    padding: 4px 4px 4px 10px  !important;
+    
+  }
+
+  .search-font input{
+    font-size: 24px !important;
+  }
+
+  .autocomplete .MuiChip-root{
+    font-size: 12px;
+    padding: 0;
+    line-height: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .opendropdown input{
+    min-height: 29.24px;
+  }
+
+  .opendropdown .MuiFormControl-root .MuiOutlinedInput-root.MuiInputBase-sizeSmall {
+    padding: 0 !important;
+  }
+
+  .opendropdown .MuiFormControl-root .MuiOutlinedInput-root .MuiAutocomplete-tag {
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 24px;
+  }
+  .opendropdown .MuiFormControl-root .MuiOutlinedInput-root .MuiAutocomplete-tag .MuiChip-deleteIcon {
+    font-size: 18px !important;
+  }
+
+  .dropdownWidth input {
+    min-width: auto !important;
+  }

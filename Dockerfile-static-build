@@ -1,0 +1,11 @@
+FROM node:14.16.1 as build-stage
+WORKDIR /webapp
+COPY package.json .
+COPY package-lock.json .
+RUN npm i
+COPY . /webapp
+ARG REACT_APP_API_URL="https://terminal-1.toptechc1.com/v1/"
+
+RUN npm run build
+RUN npm install -g serve
+CMD serve -s build -l 3000

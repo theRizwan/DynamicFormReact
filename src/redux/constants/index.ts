@@ -1,0 +1,3 @@
+export const GET_FORMDATA = 'GET_FORMDATA';
+export const SUBMITTED_DATA = 'SUBMITTED_DATA';
+export const SET_LOADING = 'SET_LOADING';
