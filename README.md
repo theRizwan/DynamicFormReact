@@ -23,8 +23,8 @@ git clone https://github.com/theRizwan/ReactTest.git
 ## Usage
 
 - npm start or yarn start
-- yarn lint
-- yarn test
+- npm run lint or yarn lint
+- npm run test or yarn test
 
 ## Documentation
 
